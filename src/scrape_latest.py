@@ -12,7 +12,7 @@ def get_latest_messages() -> List[Tuple[str, str]]:
     limit = config["limit"]
     channel_id = config["channel_id"]
 
-    headers = utils.get_bot_headers()
+    headers = utils.get_user_headers() if config["use_user"] else utils.get_bot_headers()
     # Construct the URL to fetch messages from the channel
     url = f"{base_url}/channels/{channel_id}/messages?limit={limit}"
 

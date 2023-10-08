@@ -12,7 +12,7 @@ def get_all_messages() -> List[Tuple[str, str]]:
     limit = config["limit"]
     channel_id = config["channel_id"]
 
-    headers = utils.get_bot_headers()
+    headers = utils.get_user_headers() if config["use_user"] else utils.get_bot_headers()
 
     all_messages = []
 
