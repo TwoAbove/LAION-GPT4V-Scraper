@@ -1,7 +1,7 @@
 # LAION-GPT4V-Scraper 
 Pipeline to scrape prompt + image url pairs from LAION `share-gpt4v-images` discord channel
 
-This is currently syncing to huggingface here: [https://huggingface.co/datasets/laion/dalle-3-dataset](https://huggingface.co/datasets/TwoAbove/LAION-discord-gpt4v)
+This is currently syncing to huggingface here: [https://huggingface.co/datasets/TwoAbove/LAION-discord-gpt4v](https://huggingface.co/datasets/TwoAbove/LAION-discord-gpt4v)
 
 ### Environment Setup
 
